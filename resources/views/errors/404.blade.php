@@ -33,13 +33,6 @@
             object-fit: cover;
         }
 
-        .overlay {
-            position: absolute;
-            inset: 0;
-            background: rgba(0, 0, 0, 0.35);
-            z-index: 0;
-        }
-
         .btn-white {
             transition: all 0.2s ease;
         }
@@ -98,7 +91,6 @@
             <source src="{{ asset('videos/404-bg.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
-        <div class="overlay"></div>
     </div>
 
     <main class="relative z-10 min-h-screen w-full pl-6 pr-6 md:pl-20 md:pr-20 text-left flex flex-col justify-end">
